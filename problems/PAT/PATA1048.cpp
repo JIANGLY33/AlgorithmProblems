@@ -1,6 +1,6 @@
 #include<cstdio>
 #include<algorithm>
-//该方法超时 
+//time out
 using namespace std;
 
 int main() {
@@ -28,5 +28,3 @@ int main() {
 		printf("No Solution");
 	}
 }
-
- 

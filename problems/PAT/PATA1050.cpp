@@ -7,7 +7,7 @@ char a[maxn],b[maxn];
 bool hashTable[128] = {false};
 
 int main() {
-	//PAT±àÒëÆ÷²»Ö§³Ögets 
+	//PAT don't support gets function 
 	//gets(a);
 	//gets(b);
 	

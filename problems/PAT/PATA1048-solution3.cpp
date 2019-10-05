@@ -1,5 +1,5 @@
 #include<cstdio>
-//É¢ÁÐ·¨ 
+//hash
 const int maxm = 1010;
 
 int hashTable[maxm];

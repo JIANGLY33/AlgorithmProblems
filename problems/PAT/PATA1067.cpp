@@ -1,14 +1,12 @@
 #include<cstdio>
 
-//ĞòÁĞ²»ÖØ¸´£¬²»È±Ê§ 
-//ÓĞÁ½×éÊı¾İ½«»á³¬Ê± 
 
 struct Res{
 	bool flag;
 	int index;
 };
 
-//ÕÒµ½numµÄÏÂ±ê£¬Ç°Ìá:numÒ»¶¨ÔÚÊı×éÖĞ 
+//find the index of num
 int getIndex(int num, int array[], int length) {
 	int res = 0;
 	for(int i = 0; i < length; i++) {
@@ -30,7 +28,7 @@ int findMin(int array[], int length){
 	return min;
 }
 
-//ÅĞ¶ÏĞòÁĞÊÇ·ñÓĞĞò£¬ÈôÎŞĞòµÄ»°Í¬Ê±¼ÇÂ¼ÏÂµÚÒ»¸öÎŞĞòÊı×ÖµÄÏÂ±ê 
+//ï¿½Ğ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½Í¬Ê±ï¿½ï¿½Â¼ï¿½Âµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Â±ï¿½ 
 Res judge(int array[], int length) {
 	Res res;
 	res.flag = true;

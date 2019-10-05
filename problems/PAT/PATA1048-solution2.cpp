@@ -1,6 +1,6 @@
 #include<cstdio>
 #include<algorithm>
-//Ë«Ö¸Õë 
+//two-pointers
 using namespace std;
 
 int main() {
